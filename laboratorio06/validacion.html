@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Validacion</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Pagina principal</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Validaciones</h2>
+        <form>
+            <fieldset>
+                <label>Correo electronico </label>
+                <input type="email" required placeholder="ejemplo@organizacion.com">
+                <br>
+                <label>Contraseña</label>
+                <input type="password" minlength="6" maxlength="12" name="contraseña">
+                <br>
+                <label>Confirmar contraseña</label>
+                <input type="password" minlength="6" maxlength="12" pattern>
+                <br>
+                <button type="submit">Enviar</button>
+            </fieldset>
+        </form>
+    </main>
+</body>
+</html>
