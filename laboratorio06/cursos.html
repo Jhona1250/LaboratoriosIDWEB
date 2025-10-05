@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Validacion</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Pagina principal</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Inscripcion al curso</h2>
+        <form>
+            <fieldset>
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" required>
+                <br>
+                <label for="apellido">Apellido</label>
+                <input type="text" id="apellido" required>
+                <br>
+                <label for="documentoIdentidad">Documento de identidad</label>
+                <input type="number" id="apellido" required>
+                <br>
+                <label for="email">Correo electronico</label>
+                <input id="email" type="email" required>
+                <br>
+                <label for="seleccionCurso">Seleccione curso:</label>
+                <select id="seleccionCurso">
+                    <option value="idweb">IDWeb</option>
+                    <option value="poo">POO</option>
+                    <option value="arquitecturadesoftware">Arquitectura de software</option>
+                </select>
+                <br>
+                <label for="modalidad">Modalidad</label> <br>
+                <label for="Presencial">Presencial</label>
+                <input id="Presencial" type="radio" name="modalidad" value="Presencial">
+                <label for="Virtual">Virtual</label>
+                <input id="Virtual" type="radio" name="modalidad" value="Virtual">
+                <br>
+                <label for="turno">Turno</label> <br>
+                <label for="mañana">Mañana</label>
+                <input id="mañana" type="checkbox">
+
+                <label for="tarde">Tarde</label>
+                <input id="tarde" type="checkbox">
+
+                <label for="noche">Noche</label>
+                <input id="noche" type="checkbox">
+                <br>
+                <label for="comentarios">Comentarios adicionales</label>
+                <textarea id="comentarios" placeholder="Ingrese texto"></textarea>
+                <br>
+                <button type="submit">Enviar</button>
+                <input type="reset" value="Reset">
+            </fieldset>
+        </form>
+    </main>
+</body>
+</html>
