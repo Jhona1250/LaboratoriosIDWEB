@@ -1,0 +1,15 @@
+body{
+    font-family: sans-serif;
+}
+header {
+    display: flex;
+    padding: 10px;
+    background-color: rgba(0, 0, 107, 0.651);
+    color:white;
+    align-items: center;
+    align-content: center;
+}
+header > *{
+    flex:content;
+    text-align: center;
+}

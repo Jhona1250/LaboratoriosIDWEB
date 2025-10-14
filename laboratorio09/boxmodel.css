@@ -1,0 +1,24 @@
+.FLEXBOX{
+    display: flex;
+    gap:25px;
+    background:wheat;
+    padding: 25px;
+}
+.elemento{
+    flex: 1;
+    padding: 4px;
+    border: 3px solid gray;
+    align-self: center;
+
+}
+section{
+    background-color: aqua;
+    text-align: center;
+    font-weight: bolder;
+    color:gray;
+    width: 110%;
+}
+h6{
+    background-color: black;
+    color: red
+}
