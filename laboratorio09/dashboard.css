@@ -1,0 +1,33 @@
+.imagenesGrid{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    background-color: darkblue;
+    border-radius: 10px;
+}
+.flexelement{
+    background-color: azure;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+.gridcontent{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.gridelement{
+    padding: 10px;
+    border: solid gray;
+    background-color: gainsboro;
+    align-content: center;
+}
+img{
+    width: 300px;
+}

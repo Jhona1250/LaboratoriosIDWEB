@@ -1,0 +1,18 @@
+.cajaflex{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color:antiquewhite;
+}
+#menulateral{
+    display:grid;
+    background-color: aliceblue;
+    border-radius: 10px;
+    align-items:center;
+}
+#menulateral{
+    width: 1100px;
+    text-align: center;
+    background-color: white;
+}

@@ -1,24 +1,16 @@
 .FLEXBOX{
     display: flex;
-    gap:25px;
+    justify-content: space-around;
     background:wheat;
-    padding: 25px;
+    border-radius: 10px;
+    flex-wrap: nowrap;
 }
 .elemento{
     flex: 1;
     padding: 4px;
     border: 3px solid gray;
     align-self: center;
-
-}
-section{
-    background-color: aqua;
-    text-align: center;
-    font-weight: bolder;
-    color:gray;
-    width: 110%;
-}
-h6{
-    background-color: black;
-    color: red
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
 }
