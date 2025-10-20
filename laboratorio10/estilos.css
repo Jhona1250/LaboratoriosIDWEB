@@ -1,12 +1,15 @@
-
 *{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
+    font-family:sans-serif;
 }
+body{
+    padding: 0px 100px;
+}
+
 a{
     text-decoration: none;
     margin: 0px;
-    color:lightgray
+    color: white;
+    font-style: italic;
 }
 .enmedio{
     display: flex;
@@ -14,18 +17,18 @@ a{
     gap:0px;
 }
 header{
-    background-color: gray;
-    padding: 10px;
-    color:lightgray;
+    background-color:steelblue;
+    padding: 30px;
+    color:white;
 }
 footer{
-    background-color: gray;
-    padding: 10px;
-    color:lightgray;
+    background-color: steelblue;
+    padding: 30px;
+    color:white;
     text-align: center;
 }
 .navegacion{
-    background-color:darkcyan;
+    background-color:gray;
     color:lightgray;
 }
 .navegacion > div{
@@ -52,6 +55,19 @@ footer{
     flex-direction: column;
     align-items: center;
 }
+
+.contacto > label{
+    margin: 10px 0 0 0;
+    border-bottom-style:solid;
+    border-bottom-width: 10px;
+    border-bottom-color: gray;
+    
+}
+.contacto > *{
+    box-sizing: border-box;
+    width: 100%;
+}
+
 #contenedornosotros{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -61,15 +77,25 @@ footer{
 }
 
 #contenedornosotros > *{
+    border-top: 10px solid gray;
+    margin: 10px;
     text-align: center;
     background-color: whitesmoke;
-    width: 200px;
+    width: 100%;
 }
+
 #contenedorportafolio{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
 }
-#contenedorportafolio > *{
-
+#contenedorportafolio > * {
+    background-color: gray;
+    text-align: center;
+}
+.contenedorservicios > *{
+    border-top: 10px solid gray;
+    margin: 10px;
+    text-align: center;
+    background-color: white;
 }
