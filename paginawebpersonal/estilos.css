@@ -34,7 +34,7 @@ a{
     place-items: center;
 }
 #contenidoimagenes > *{
-    width: 60%;
+    width: 120px;
     padding:20px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -50,7 +50,7 @@ a{
     grid-template-rows: 1fr 1fr 1fr;
 }
 #elementoscontenedorimagenesjuegos{
-    width: 60%;
+    width: 120px;
     padding:20px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
