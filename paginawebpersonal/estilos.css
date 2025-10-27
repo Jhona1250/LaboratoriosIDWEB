@@ -1,5 +1,5 @@
 *{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    font-family: "Monserat";
 }
 a{
     text-decoration: none;
@@ -11,9 +11,9 @@ a{
 }
 .cabecera{
     text-align: center;
-    background-color:deepskyblue;
+    background-color:rgb(160, 255, 179);
     padding:10px;
-    font-size: 10px;
+    font-size: 12px;
 }
 .navegacion{
     text-align:center;
@@ -23,15 +23,13 @@ a{
     justify-content: center;
     background-color:dimgray;
 }
-.contenido{
-    font-style: italic;
-}
 
 /* para inicio */
 #contenidoimagenes{
     display: grid;
-    grid-template-columns: 1fr 1fr;
     place-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));;
+    grid-template-rows: repeat(auto-fit, minmax(250px, 1fr));;
 }
 #contenidoimagenes > *{
     width: 120px;
@@ -46,10 +44,13 @@ a{
 /* para hobbies */
 #contenidoimagenesjuegos{
     display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));;
+    align-items: center;
 }
-#elementoscontenedorimagenesjuegos{
+#contenidoimagenesjuegos > *{
+    background-color: rgb(226, 226, 226);
+}
+.elementoscontenedor{
     width: 120px;
     padding:20px;
     border-top-right-radius: 20px;
@@ -58,9 +59,30 @@ a{
     margin:10px;
     box-shadow: 1px 1px 1px gray;
 }
+#SoungContainer{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    margin: 20px;
+    gap: 10px;
+}
 .piedepagina{
     text-align: center;
     background-color:dimgray;
     padding:10px;
     color:white
+}
+
+#universidadimagenes{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));;
+    align-items: center;
+}
+#universidadimagenes img{
+    width: 250px;
+    padding:20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-right: 10px solid dimgray;
+    box-shadow: 1px 1px 1px gray;
 }
