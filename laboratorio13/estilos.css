@@ -1,0 +1,43 @@
+body{
+    background-color: #333;
+    font-family:sans-serif;
+}
+.ejercicios{
+    box-sizing: border-box;
+    width: 100%;
+    margin: auto;
+    max-width: 400px;
+    background-color: #555;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #222f;
+}
+.slotejercicio{
+    box-sizing: border-box;
+    background-color: #444;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #222f;
+}
+h3{
+    margin:0;
+    color: #fff9;
+    text-align: center;
+}
+button{
+    margin-top: 20px;
+    background-color: #555;
+    color:#fff9;
+    box-shadow: 0 0 10px #fff3;
+}
+h1{
+    font-size: 30px;
+    margin: 0;
+    color: #fff9;
+    text-align: center;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
