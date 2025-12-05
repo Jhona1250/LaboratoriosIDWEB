@@ -1,0 +1,17 @@
+
+.ejercicios{
+    margin:10px auto;
+    width: 100px;
+    padding: 10px 2px;
+    box-shadow: 0 0 2px 2px black ;
+    border-radius: 10px;
+    text-align: center;
+}
+.claro{
+    color: black;
+    background-color: white;
+}
+.oscuro{
+    color: white;
+    background-color: black;
+}
