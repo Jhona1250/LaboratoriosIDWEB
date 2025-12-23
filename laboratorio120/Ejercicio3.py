@@ -58,3 +58,4 @@ def ejercicio5():
     except ValueError as e:
         print(f"Error: {e}")
         return None
+ejercicio5()

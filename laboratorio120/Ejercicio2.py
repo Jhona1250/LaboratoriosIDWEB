@@ -51,3 +51,4 @@ def ejercicio4():
         }
     
     return calcular_impuesto_progresivo()
+ejercicio4()

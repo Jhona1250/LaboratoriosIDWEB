@@ -1,93 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="assets/imagenes/icono.jpg" type="image/jpg">
-    <link rel="stylesheet" href="fuentes.css">
-    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="estilos/fuentes.css">
+    <link rel="stylesheet" href="estilos/estilosHobbies.css">
     <title>Personal</title>
 </head>
+
 <body>
-    <div class="divisiongeneral">
-        <nav class="navegacion">
-            <div>
-                <a href="hobbies.html">
-                    Hobbies
-                </a>
+    <!-- barra de navegacion -->
+    <nav class="navegacion cajaflex">
+        <div class="elemendoflex imagen">
+            <img src="assets/imagenes/fotodeperfil.png">
+        </div>
+        <div class="elemendoflex link">
+            <a href="hobbies.html">
+                Hobbies
+            </a>
+        </div>
+        <div class="elemendoflex link">
+            <a href="contacto.html">
+                Contacto
+            </a>
+        </div>
+        <div class="elemendoflex link">
+            <a href="universidad.html">
+                Universidad
+            </a>
+        </div>
+        <div class="elemendoflex link">
+            <a href="index.html">
+                Inicio
+            </a>
+        </div>
+    </nav>
+    <!-- Contenido -->
+    <main>
+        <div class="flexbox2">
+            <div class="flexelement2 caratula">
+                <div class="gradiente">
+                    <h1 class="titulo">Hobbies</h1>
+                    <p class="parrafo">No hay mucho que decir, lo que a la mayoria le gusta: musica, videojuegos,
+                        peliculas, etc, abajo puse
+                        algunos ejemplos:</p>
+                </div>
             </div>
-            <div>
-                <a href="universidad.html">
-                    universidad
-                </a>
-            </div>
-             <div>
-                <a href="index.html">
-                    inicio
-                </a>
-            </div>
-        </nav>
-        <header class="cabecera">
-            <h1>Hobbies</h1>
-        </header>
-        <main class="contenido">
-            No hay mucho que decir, lo que a la mayoria le gusta: musica, videojuegos, peliculas, etc, abajo puse algunos ejemplos:
-            <ol>
-                <li>
-                    Musica:
-                    <br>
-                    escucho un poco de todo, pero mas me atraen la electronica, hardstyle, pop
-                    <br>
-                    <div id="SoungContainer">
+            <div class="flexelement2 tarjetas">
+                <div class="card">
+                    <div class="descripcion flexsubelement">
+                        <h2>
+                            Musica
+                        </h2>
+                        <p>
+                            escucho un poco de todo, pero mas me atraen la electronica, hardstyle, pop
+                        </p>
+                    </div>
+                    <div class="Contenido flexsubelement">
                         <div>
-                            <audio controls >
+                            <audio controls>
                                 <source src="assets/musica/Alex Warren - Ordinary (Official Video).mp3">
                             </audio>
                         </div>
                         <div>
-                            <audio controls >
+                            <audio controls>
                                 <source src="assets/musica/Killaheadz - Lettin' Go ( 027 906)  (Bass Boosted).mp3">
                             </audio>
                         </div>
                         <div>
-                            <audio controls >
+                            <audio controls>
                                 <source src="assets/musica/Warriyo - Mortals (ft. Laura Brehm).mp3">
                             </audio>
                         </div>
                     </div>
-                </li>
+                </div>
+            </div>
+            <div class="flexelement2 tarjetas">
+                <div class="card">
+                    <div class="descripcion flexsubelement">
+                        <h2>
+                            Videojuegos
+                        </h2>
+                        <p>
+                            aunque la mayoria ya los termine eliminando, algunos si me dejaron algo viciado como el sc o
+                            el
+                            osu
+                            xd:
+                        </p>
+                    </div>
 
-                <li>
-                    Videojuegos:
-                    <br>
-                    aunque la mayoria ya los termine eliminando, algunos si me dejaron algo viciado como el sc o el osu xd:
-                    <br>
-                    <div id="contenidoimagenesjuegos">
+                    <div class="Contenido flexsubelement">
                         <img src="assets/imagenes/starcraftlogo.png" class="elementoscontenedor">
                         <img src="assets/imagenes/osulogo.png" class="elementoscontenedor">
                         <img src="assets/imagenes/gta5logo.webp" class="elementoscontenedor">
                         <img src="assets/imagenes/citiesskylineslogo.png" class="elementoscontenedor">
                     </div>
-                </li>
-
-                <li>
-                    Peliculas:
-                    <br>
-                    no soy mucho de verlas y me gusta variar, pero las que destacaron y creo que a la mayoria:
-                    <br>
-                    <div id="contenidoimagenesjuegos">
+                </div>
+            </div>
+            <div class="flexelement2 tarjetas">
+                <div class="card">
+                    <div class="descripcion flexsubelement">
+                        <h2>
+                            Peliculas
+                        </h2>
+                        <p>
+                            De todo un poco, igualmente son las mas conocidas no se me apega ningun genero en especifico
+                        </p>
+                    </div>
+                    <div class="Contenido flexsubelement">
                         <img src="assets/imagenes/stainsgate.jpg" class="elementoscontenedor">
                         <img src="assets/imagenes/hastaelultimohombre.jpg" class="elementoscontenedor">
                         <img src="assets/imagenes/mugentrain.jpg" class="elementoscontenedor">
                         <img src="assets/imagenes/estacionzombie.jpg" class="elementoscontenedor">
                     </div>
-                </li>
-            </ol>
-        </main>
-        <footer class="piedepagina">
-            @2025
-        </footer>
-    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
     <script src="javascript.js"></script>
 </body>
+
 </html>

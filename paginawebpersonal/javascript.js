@@ -12,12 +12,10 @@ let parrafos = [
     ["Pelicula de zombies ambientada en Corea del Sur, la mayor partes de las escenas ocurren entre los trenes y sus estaciones, por eso su nombre"],
 ]
 Array.from(elementos).forEach((elemento, index) => {
-    // Evento cuando el mouse entra
     elemento.addEventListener('mouseenter', function() {
         crearDivDinamico(elemento, index);
     });
     
-    // Evento cuando el mouse sale (opcional: eliminar el div)
     elemento.addEventListener('mouseleave', function() {
         eliminarDivDinamico(index);
     });
@@ -41,7 +39,7 @@ function crearDivDinamico(elementoPadre, id) {
     nuevoDiv.style.top = '0';
     nuevoDiv.style.width = '50px'
     nuevoDiv.style.left = '0';
-    nuevoDiv.style.background = 'rgba(160, 255, 179)';
+    nuevoDiv.style.background = 'rgba(255,255,255)';
     nuevoDiv.style.color = 'black';
     nuevoDiv.style.padding = '10px';
     nuevoDiv.style.borderRadius = '10px';
@@ -53,7 +51,6 @@ function crearDivDinamico(elementoPadre, id) {
     nuevoDiv.style.borderRight = '10px solid rgba(200, 200, 200)';
     nuevoDiv.style.boxShadow = '5px 5px 1px gray';
     
-    // Posicionar cerca del elemento
     const rect = elementoPadre.getBoundingClientRect();
     nuevoDiv.style.top = `${rect.bottom + window.scrollY}px`;
     nuevoDiv.style.left = `${rect.left + window.scrollX}px`;

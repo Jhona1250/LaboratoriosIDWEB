@@ -2,7 +2,6 @@ def ejercicio7():
     estudiantes = []
     
     def mostrar_menu():
-        print("\n=== REGISTRO DE ESTUDIANTES ===")
         print("1. Agregar estudiante")
         print("2. Mostrar todos los estudiantes")
         print("3. Mostrar estudiante con mejor promedio")
@@ -117,3 +116,4 @@ def ejercicio7():
             print(f"Error inesperado: {e}")
     
     return estudiantes
+ejercicio7()

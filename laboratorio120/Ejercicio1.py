@@ -7,7 +7,3 @@ salud = float(input("Ingrese el porcentaje de descuento por Salud "))
 # Cálculo de ingresos
 salario_neto = salario_base + (goras_extras * valor_hora_extra) + bono - (salario_base* (afp/100)) - (salario_base * (salud/100)) - (salario_base * (afp/100))
 print("El salario neto es: ", salario_neto)
-
-def ejercicio1():
-    pass
-ejercicio1()

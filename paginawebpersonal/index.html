@@ -1,45 +1,94 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="assets/imagenes/icono.jpg" type="image/jpg">
-    <link rel="stylesheet" href="fuentes.css">
-    <link rel="stylesheet" href="estilos.css">
-    <title>Personal</title>
+    <link rel="stylesheet" href="estilos/fuentes.css">
+    <link rel="stylesheet" href="estilos/estilosIndex.css">
+    <title>Inicio</title>
 </head>
+
 <body>
-    <div class="divisiongeneral">
-        <nav class="navegacion">
-            <div>
-                <a href="hobbies.html">
-                    Hobbies
-                </a>
+
+    <!-- barra de navegacion -->
+    <nav class="navegacion cajaflex">
+        <div class="elemendoflex imagen">
+            <img src="assets/imagenes/fotodeperfil.png">
+        </div>
+        <div class="elemendoflex link">
+            <a href="hobbies.html">
+                Hobbies
+            </a>
+        </div>
+        <div class="elemendoflex link">
+            <a href="contacto.html">
+                Contacto
+            </a>
+        </div>
+        <div class="elemendoflex link">
+            <a href="universidad.html">
+                Universidad
+            </a>
+        </div>
+        <div class="elemendoflex link">
+            <a href="index.html">
+                Inicio
+            </a>
+        </div>
+    </nav>
+    <!-- Contenido principal -->
+    <main>
+        <div class="flexbox2">
+
+            <div class="flexelement2 caratula">
+                <div class="gradiente">
+                    <h1 class="titulo">Bienvenido</h1>
+                    <p class="parrafo">
+                        Hola, esta es mi página personal donde comparto un poco sobre mí,
+                        mis intereses y lo que me gusta hacer.
+                    </p>
+                </div>
             </div>
-            <div>
-                <a href="universidad.html">
-                    universidad
-                </a>
+
+            <div class="flexelement2 tarjetas">
+                <div class="card">
+                    <div class="descripcion flexsubelement">
+                        <h2>Sobre mí</h2>
+                        <p>
+                            Soy una persona interesada en la tecnología, el diseño web y el
+                            aprendizaje constante. Me gusta crear cosas y experimentar con ideas nuevas.
+                        </p>
+                    </div>
+
+                    <div class="Contenido flexsubelement">
+                        <img src="assets/imagenes/fotodeperfil.png" class="elementoscontenedor">
+                    </div>
+                </div>
             </div>
-            <div>
-                <a href="index.html">
-                    inicio
-                </a>
+
+            <div class="flexelement2 tarjetas">
+                <div class="card">
+                    <div class="descripcion flexsubelement">
+                        <h2>Que hay aqui?</h2>
+                        <p>
+                            En este sitio podrás ver mis hobbies, formas de contacto y
+                            algunos gustos personales que me representan.
+                        </p>
+                    </div>
+
+                    <div class="Contenido flexsubelement">
+                        <img src="assets/imagenes/starcraftlogo.png" class="elementoscontenedor">
+                        <img src="assets/imagenes/osulogo.png" class="elementoscontenedor">
+                        <img src="assets/imagenes/mugentrain.jpg" class="elementoscontenedor">
+                    </div>
+                </div>
             </div>
-        </nav>
-        <header class="cabecera">
-            <h1>Inicio</h1>
-        </header>
-        <main class="contenido">
-            Esta es la pagina de inicio, aun en construccion:
-            <div id="contenidoimagenes">
-                <img src="assets/imagenes/construccion1.jpg">
-                <img src="assets/imagenes/construccion2.jpg">
-            </div>
-        </main>
-        <footer class="piedepagina">
-            @2025
-        </footer>
-    </div>
+
+        </div>
+    </main>
+
 </body>
+
 </html>

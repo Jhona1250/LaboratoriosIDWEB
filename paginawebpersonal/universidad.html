@@ -1,68 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="assets/imagenes/icono.jpg" type="image/jpg">
-    <link rel="stylesheet" href="fuentes.css">
-    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="estilos/fuentes.css">
+    <link rel="stylesheet" href="estilos/estilosUniversidad.css">
     <title>Personal</title>
 </head>
+
 <body>
-    <div class="divisiongeneral">
-        <nav class="navegacion">
-            <div>
-                <a href="hobbies.html">
-                    Hobbies
-                </a>
+    <!-- barra de navegacion -->
+    <nav class="navegacion cajaflex">
+        <div class="elemendoflex imagen">
+            <img src="assets/imagenes/fotodeperfil.png">
+        </div>
+        <div class="elemendoflex link">
+            <a href="hobbies.html">
+                Hobbies
+            </a>
+        </div>
+        <div class="elemendoflex link">
+            <a href="contacto.html">
+                Contacto
+            </a>
+        </div>
+        <div class="elemendoflex link">
+            <a href="universidad.html">
+                Universidad
+            </a>
+        </div>
+        <div class="elemendoflex link">
+            <a href="index.html">
+                Inicio
+            </a>
+        </div>
+    </nav>
+    <!-- Contenido -->
+    <main>
+        <div class="flexbox2">
+            <div class="flexelement2 caratula">
+                <div class="gradiente">
+                    <h1 class="titulo">Universidad</h1>
+                </div>
             </div>
-            <div>
-                <a href="universidad.html">
-                    universidad
-                </a>
+            <div class="flexelement2 tarjetas">
+                <div class="card">
+                    <div class="descripcion flexsubelement">
+                        <p>
+                            La universidad en la que actualmente estudio es la UNSA (Universidad Nacional de san
+                            Agustin),
+                            me agradan las clases y tambien
+                            los temas que se tratan, aunque este 2do semestre me toco un horario mucho mas fragmentado
+                        </p>
+                    </div>
+                    <div class="Contenido flexsubelement">
+                        <img src="assets/imagenes/UNSA2.jpg" class="elementoscontenedor">
+                    </div>
+                </div>
             </div>
-            <div>
-                <a href="index.html">
-                    inicio
-                </a>
+            <div class="flexelement2 tarjetas">
+                <div class="card">
+                    <div class="descripcion flexsubelement">
+                        <h2>
+                            Ingenieria de sistemas
+                        </h2>
+                        <p>
+                            Mi carrera, aunque tambien centrada en la tecnologia, profundiza principalmente la creacion
+                            de
+                            algoritmos, busqueda
+                            de patrones, etc
+                            aspectos que son fundamentales si alguien quiere crear sistemas de calidad
+                        </p>
+                    </div>
+
+                    <div class="Contenido flexsubelement">
+                        <img src="assets/imagenes/UNSA3.jpg" class="elementoscontenedor">
+                    </div>
+                </div>
             </div>
-        </nav>
-        <header class="cabecera">
-            <h1>Universidad</h1>
-        </header>
-        <main class="contenido">
-            <p>
-                La universidad en la que actualmente estudio es la UNSA (Universidad Nacional de san Agustin), me agradan las clases y tambien
-                los temas que se tratan, aunque este 2do semestre me toco un horario mucho mas fragmentado
-            </p>
-            <h4>
-                Ingenieria de sistemas
-            </h4>
-            <p>
-                Mi carrera, aunque tambien centrada en la tecnologia, profundiza principalmente la creacion de algoritmos, busqueda de patrones, etc
-                aspectos que son fundamentales si alguien quiere crear sistemas de calidad
-            </p>
-            <h4>
-                Imagenes de la universidad
-            </h4>
-            <section id="universidadimagenes">
-                <div>
-                    <img src="assets/imagenes/UNSA1.jpg">
-                </div>
-                <div>
-                    <img src="assets/imagenes/UNSA2.jpg">
-                </div>
-                <div>
-                    <img src="assets/imagenes/UNSA3.jpg">
-                </div>
-                <div>
-                    <img src="assets/imagenes/UNSA4.jpg">
-                </div>
-            </section>
-        </main>
-        <footer class="piedepagina">
-            @2025
-        </footer>
-    </div>
+        </div>
+    </main>
 </body>
+
 </html>

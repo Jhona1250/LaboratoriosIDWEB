@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/imagenes/icono.jpg" type="image/jpg">
+    <link rel="stylesheet" href="estilos/fuentes.css">
+    <link rel="stylesheet" href="estilos/estilosContacto.css">
+    <title>Contacto</title>
+</head>
+
+<body>
+    <!-- barra de navegacion -->
+    <nav class="navegacion cajaflex">
+        <div class="elemendoflex imagen">
+            <img src="assets/imagenes/fotodeperfil.png">
+        </div>
+        <div class="elemendoflex link">
+            <a href="hobbies.html">
+                Hobbies
+            </a>
+        </div>
+        <div class="elemendoflex link">
+            <a href="contacto.html">
+                Contacto
+            </a>
+        </div>
+        <div class="elemendoflex link">
+            <a href="universidad.html">
+                Universidad
+            </a>
+        </div>
+        <div class="elemendoflex link">
+            <a href="index.html">
+                Inicio
+            </a>
+        </div>
+    </nav>
+    <!-- Contenido -->
+    <main>
+        <div class="flexbox2">
+
+            <!-- Carátula -->
+            <div class="flexelement2 caratula">
+                <div class="gradiente">
+                    <h1 class="titulo">Contacto</h1>
+                    <p class="parrafo">
+                        Si querés comunicarte conmigo, dejame tu mensaje acá abajo
+                    </p>
+                </div>
+            </div>
+
+            <!-- Formulario -->
+            <div class="flexelement2 tarjetas">
+                <div class="card">
+                    <div class="flexsubelement descripcion">
+                        <h2>Escribime</h2>
+                        <p>
+                            Completá el formulario y te responderé lo antes posible.
+                        </p>
+                    </div>
+
+                    <div class="flexsubelement Contenido">
+                        <form class="formulario">
+                            <label>Nombre</label>
+                            <input id="nombre" type="text" placeholder="Nombre" required>
+
+                            <label>Email</label>
+                            <input id="email" type="email" placeholder="pepito@email.com" required>
+
+                            <label>Mensaje</label>
+                            <textarea id="mensaje" placeholder="Mensaje" required></textarea>
+
+                            <button type="submit">Enviar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+    <script src="validacionFormulario.js"></script>
+</body>
+
+</html>

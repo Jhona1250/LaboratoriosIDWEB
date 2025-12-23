@@ -1,0 +1,126 @@
+*{
+    font-family: "Monserat";
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+    margin:0;
+}
+
+.cajaflex{
+    margin:10px;
+    height: 60px;
+    display:flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+.link{
+    margin:0 10px;
+    text-decoration: none;
+    height: 60%;
+    border-radius: 90px;
+    background-color: rgb(255,255,255);
+    align-content: center;
+    text-align: center;
+
+    border-style: solid;
+    border-color: rgb(0, 215, 198);
+
+    transition-property: height;
+    transition-duration: 0.2s;
+}
+.link:hover{
+    margin:0 10px;
+    text-decoration: none;
+    height: 80%;
+    border-radius: 90px;
+    background-color: rgb(0, 215, 198);
+    border-color: rgb(170,170,170);
+    align-content: center;
+}
+.link a{
+    margin:0 20px;
+    height: 100%;
+    color: black;
+    text-decoration: none;
+    background-color: transparent;
+}
+.imagen{
+    background-color: white;
+    width: 60px;
+    height: 60px;
+    margin-left: 20px;
+} 
+.imagen img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.flexbox2{
+    display: flex;
+    flex-direction: column;
+    margin:0;
+}
+.botonmenu{
+    width: 60px;
+    height: 60px;
+}
+.caratula{
+    background-image: linear-gradient(rgb(0, 199, 182),rgb(0, 227, 98));
+    color:white;
+    text-align: center;
+    background-attachment: fixed;
+    transition-property: font-size;
+    transition-duration: 6s;
+    align-content: center;
+    justify-content: center;
+
+}
+.gradiente{
+    width: 70%;
+    height: 100%;
+    align-content: center;
+    transition-property:width ;
+    transition-duration:1s;
+}
+.titulo{
+    font-size: 70px;
+    margin:0;
+}
+
+.flexelement2{
+    margin: 0;
+    width: 100vw;
+    height: 60vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.tarjetas{
+    margin:0;
+    height: 50vw;
+    border-top: 10px solid rgb(170,170,170);
+}
+.flexsubelement{
+    width: 50vw;
+    padding:50px;
+    align-content: center;
+}
+
+.elementoscontenedor{
+    border-radius: 20px;
+    width: 120px;
+}
+.card{
+    width: 900px;              
+    height: 500px;             
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    margin: auto;            
+    border-radius: 20px;
+
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+
+    overflow: hidden;       
+}
